@@ -1,5 +1,6 @@
 import firebase from "firebase";
 
+
 const config = {
   apiKey: process.env.REACT_APP_API_KEY,
   authDomain: process.env.REACT_APP_AUTH_DOMAIN,
@@ -14,4 +15,5 @@ if (!firebase.apps.length) {
   firebase.initializeApp(config);
 }
 
-export default firebase;
+export default firebase
+
